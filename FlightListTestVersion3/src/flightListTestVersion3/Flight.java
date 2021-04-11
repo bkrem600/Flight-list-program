@@ -20,7 +20,7 @@ public class Flight {
 			flightDetails += String.format("%2d", this.hours) + ":";
 			flightDetails += String.format("%2d", this.minutes);
 	}
-		flightDetails += String.format("%25s", this.destination);
+		flightDetails += String.format("%30s", this.destination);
 		return flightDetails;
 
 	
